@@ -10,5 +10,5 @@ fi
 
 flutter/bin/flutter config --enable-web
 flutter/bin/flutter pub get
-flutter/bin/flutter pub run build_runner build --delete-conflicting-outputs 
+# flutter/bin/flutter pub run build_runner build --delete-conflicting-outputs 
 flutter/bin/flutter build web --web-renderer html --release
